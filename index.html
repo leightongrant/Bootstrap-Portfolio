@@ -26,59 +26,45 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mainNav">
+        <a class="navbar-brand" href="#">Leighton Grant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" href="#">Work <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#">About</a>
+                <a class="nav-link disabled">Contact</a>
+            </div>
         </div>
     </nav>
 
     <!-- Hero -->
     <header id="hero">
-        <div class="jumbotron">
-            <h1 class="display-3">Jumbo heading</h1>
-            <p class="lead">Jumbo helper text</p>
-            <hr class="my-2">
-            <p>More info</p>
-            <p class="lead">
+        <div class="jumbotron jumbotron-fluid mb-0">
+            <div class="container">
+                <h1 class="display-3">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies
+                    the entire horizontal space of its parent.</p>
                 <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-            </p>
+            </div>
         </div>
     </header>
 
     <!-- Work Section -->
     <section id="work">
+        <h2 class="text-center font-weight-bold text-uppercase p-5">My Work</h2>
         <div class="container">
             <div class="row">
 
                 <!-- Card One -->
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://placehold.co/400" alt="Card image cap">
+                <div class="col-sm-6 col-lg-3 mb-5 mb-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/400x200" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -89,9 +75,9 @@
                 </div>
 
                 <!-- Card Two -->
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://placehold.co/400" alt="Card image cap">
+                <div class="col-sm-6 col-lg-3 mb-5 mb-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/400x200" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -102,9 +88,9 @@
                 </div>
 
                 <!-- Card Three -->
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://placehold.co/400" alt="Card image cap">
+                <div class="col-sm-6 col-lg-3 mb-5 mb-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/400x200" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -115,9 +101,9 @@
                 </div>
 
                 <!-- Card Four -->
-                <div class="col-lg-3">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://placehold.co/400" alt="Card image cap">
+                <div class="col-sm-6 col-lg-3 mb-5 mb-sm-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://placehold.co/400x200" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -133,12 +119,15 @@
 
     <!-- Skills Section -->
     <section id="skills">
+        <h2 class="text-center font-weight-bold text-uppercase p-5">My Skills</h2>
         <div class="container">
-            <h2>What I've learnt during this Skills Bootcamp</h2>
             <div class="row">
                 <div class="col-12">
 
+                    <!-- Accordion -->
                     <div class="accordion" id="accordionExample">
+
+                        <!-- Item 1 -->
                         <div class="card">
                             <div class="card-header d-flex justify-content-between align-items-center" id="headingOne">
                                 <h2 class="mb-0">
@@ -161,6 +150,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Item 2 -->
                         <div class="card">
                             <div class="card-header d-flex justify-content-between align-items-center" id="headingTwo">
                                 <h2 class="mb-0">
@@ -180,6 +171,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- Item 3 -->
                         <div class="card">
                             <div class="card-header d-flex justify-content-between align-items-center"
                                 id="headingThree">
@@ -202,6 +195,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -210,12 +204,13 @@
 
     <!-- About and Contact Section -->
     <section id="about-contact">
+        <h2 class="text-center font-weight-bold text-uppercase p-5">About Me</h2>
         <div class="container">
             <div class="row">
 
                 <!-- About -->
-                <div class="col-6">
-                    <div class="about">
+                <div class="col-12 col-md-7 mb-5">
+                    <div about="about">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
@@ -228,8 +223,8 @@
                 </div>
 
                 <!-- Contact -->
-                <div class="col-6">
-                    <div class="contact">
+                <div class="col-12 col-md-5 mb-5">
+                    <div id="contact">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
@@ -243,23 +238,34 @@
             </div>
         </div>
     </section>
-    <footer id="footer">
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-dark">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
+
+                <div class="col-md-6 p-3 d-flex flex-column align-content-center">
+                    <h3 class="text-light text-bold">Contant Me</h3>
                     <a href="http://" class="button">Click Me</a>
                 </div>
-                <div class="col-6">
-                    <nav class="nav justify-content-center">
+
+                <div class="col-md-6 p-3">
+                    <h3 class="text-light text-bold">Navigation</h3>
+                    <nav class="nav d-flex flex-column">
                         <a class="nav-link active" href="#">Active link</a>
                         <a class="nav-link" href="#">Link</a>
                         <a class="nav-link disabled" href="#">Disabled link</a>
                     </nav>
                 </div>
             </div>
-            <div class="row">
-                <div class="copyright">
-                    <p>&copy; 2022 Leighton Grant</p>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-1  d-flex align-content-center justify-content-center">
+                        <div class="copyright">
+                            <p class="text-light text-bold">&copy; 2022 Leighton Grant</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
