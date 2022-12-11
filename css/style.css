@@ -11,3 +11,17 @@
 .jumbotron {
     background: transparent;
 }
+
+/* My Work */
+#work h5.card-title,
+#work p.card-text {
+    display: block;
+}
+
+#work p.card-text {
+    height: 120px;
+}
+
+#work h5.card-title {
+    height: 50px;
+}
