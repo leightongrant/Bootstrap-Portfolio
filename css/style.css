@@ -1,7 +1,52 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 /* Variables */
 :root {
     --my-background: hsl(180, 10%, 90%);
     --my-hover: hsl(180, 10%, 40%);
+    --text-color: hsl(210, 3%, 16%);
+    --link-color: hsl(199, 83%, 47%);
+    --link-hover: hsl(199, 83%, 57%);
+    --h-color: hsl(215, 65%, 26%);
+}
+
+/* General */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+    color: var(--h-color);
+}
+
+.section-title {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.section-title div {
+    width: 100px;
+    margin: auto;
+    border-top: 5px solid var(--my-background);
+
 }
 
 /* Nav */
@@ -32,15 +77,27 @@
     height: 50px;
 }
 
+#work {
+    padding-bottom: 80px;
+}
+
+
+
 /* My Skills */
 #skills {
     background-color: var(--my-background);
-
+    padding: 10px 0 80px 0;
 }
 
 #skills .fa-circle-plus,
 .fa-logo {
     font-size: 30px;
+    color: var(--h-color);
+}
+
+#skills .section-title div {
+    border-top: 5px solid var(--h-color);
+
 }
 
 /* About Me */
@@ -84,4 +141,8 @@
 
 #contact .card-body>div {
     margin-bottom: 30px;
+}
+
+#about-contact {
+    padding-bottom: 80px;
 }
