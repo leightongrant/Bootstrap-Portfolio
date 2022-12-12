@@ -25,3 +25,14 @@
 #work h5.card-title {
     height: 50px;
 }
+
+/* My Skills */
+#skills {
+    background-color: hsl(180, 10%, 60%);
+
+}
+
+#skills .fa-circle-plus,
+.fa-logo {
+    font-size: 30px;
+}
