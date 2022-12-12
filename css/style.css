@@ -75,6 +75,18 @@ h6 {
     background: transparent;
 }
 
+.jumbotron p,
+h1 {
+    color: var(--white)
+}
+
+.jumbotron .info {
+    background: hsla(210, 10%, 23%, 0.8);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0;
+}
+
 /* My Work */
 #work h5.card-title,
 #work p.card-text {
