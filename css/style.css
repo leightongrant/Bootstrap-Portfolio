@@ -66,9 +66,10 @@ h6 {
 /* Hero */
 #hero {
     background-color: #000;
-    background-image: url(../images/bg-abstract.jpg);
+    background-image: url(../images/bg-screens.jpg);
     background-size: cover;
     background-position: center;
+    height: calc(100vh - 20px);
 }
 
 .jumbotron {
@@ -77,15 +78,15 @@ h6 {
 
 .jumbotron p,
 h1 {
-    color: var(--white)
+    color: var(--h-color)
 }
 
-.jumbotron .info {
+/* .jumbotron .info {
     background: hsla(210, 10%, 23%, 0.8);
     padding: 25px;
     border-radius: 10px;
     margin: 0;
-}
+} */
 
 /* My Work */
 #work h5.card-title,
@@ -142,7 +143,7 @@ h1 {
 #about .card {
     border-top: 3px solid var(--blue);
     border-bottom: 3px solid var(--blue);
-    height: 300px;
+    min-height: 300px;
 }
 
 .contact-icon {
