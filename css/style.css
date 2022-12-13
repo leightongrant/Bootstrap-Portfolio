@@ -81,12 +81,15 @@ h1 {
     color: var(--h-color)
 }
 
-/* .jumbotron .info {
-    background: hsla(210, 10%, 23%, 0.8);
-    padding: 25px;
-    border-radius: 10px;
-    margin: 0;
-} */
+.btn-primary {
+    color: #fff;
+    background-color: var(--h-color);
+    border-color: var(--h-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--link-color);
+}
 
 /* My Work */
 #work h5.card-title,
@@ -123,6 +126,10 @@ h1 {
 #skills .section-title div {
     border-top: 5px solid var(--h-color);
 
+}
+
+.expand:hover {
+    color: var(--my-hover);
 }
 
 /* About Me */
