@@ -51,7 +51,7 @@ h6 {
 
 /* Nav */
 .mainNav {
-    background-color: hsla(210, 10%, 23%, 0.8) !important;
+    background-color: hsla(210, 10%, 23%, 0.9) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -69,7 +69,7 @@ h6 {
     background-image: url(../images/bg-screens.jpg);
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 20px);
+    height: calc(100vh - 100px);
 }
 
 .jumbotron {
